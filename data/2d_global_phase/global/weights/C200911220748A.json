@@ -1,0 +1,413 @@
+{
+  "AK.CNP.BXY": {
+    "weight": 0.99983513927547774
+  }, 
+  "AT.CRAG.BXY": {
+    "weight": 0.99936920961744335
+  }, 
+  "AT.PMR.BXY": {
+    "weight": 0.99983513927547774
+  }, 
+  "AT.SIT.BXY": {
+    "weight": 0.99936920961744358
+  }, 
+  "AU.ARMA.BXY": {
+    "weight": 0.99999999999349654
+  }, 
+  "AU.BBOO.BXY": {
+    "weight": 1.0
+  }, 
+  "AU.CMSA.BXY": {
+    "weight": 0.99999999999647682
+  }, 
+  "AU.CNB.BXY": {
+    "weight": 0.99999999811352414
+  }, 
+  "AU.COEN.BXY": {
+    "weight": 0.99999999999999978
+  }, 
+  "AU.EIDS.BXY": {
+    "weight": 0.99999999999372391
+  }, 
+  "AU.MANU.BXY": {
+    "weight": 0.99999999999899836
+  }, 
+  "AU.MCQ.BXY": {
+    "weight": 1.0
+  }, 
+  "AU.MOO.BXY": {
+    "weight": 0.99999999999722067
+  }, 
+  "AU.NIUE.BXY": {
+    "weight": 1.0
+  }, 
+  "AU.QLP.BXY": {
+    "weight": 0.99999999999736411
+  }, 
+  "AU.RABL.BXY": {
+    "weight": 0.99999999999899836
+  }, 
+  "AU.TOO.BXY": {
+    "weight": 0.99999999811185902
+  }, 
+  "AZ.MONP2.BXY": {
+    "weight": 0.58674053976017049
+  }, 
+  "BK.HUMO.BXY": {
+    "weight": 0.80655021748413291
+  }, 
+  "BK.WDC.BXY": {
+    "weight": 0.67442344940281618
+  }, 
+  "CI.ADO.BXY": {
+    "weight": 0.57552021737588888
+  }, 
+  "CI.FUR.BXY": {
+    "weight": 0.54580529798520061
+  }, 
+  "CI.GSC.BXY": {
+    "weight": 0.44499986081660209
+  }, 
+  "CI.ISA.BXY": {
+    "weight": 0.8335915138560942
+  }, 
+  "CI.PLM.BXY": {
+    "weight": 0.53608603530965282
+  }, 
+  "CI.SHO.BXY": {
+    "weight": 0.47764513802487008
+  }, 
+  "CN.BBB.BXY": {
+    "weight": 0.99999999999999978
+  }, 
+  "CN.DRLN.BXY": {
+    "weight": 1.0
+  }, 
+  "CU.BBGH.BXY": {
+    "weight": 1.0
+  }, 
+  "G.DZM.BXY": {
+    "weight": 1.0
+  }, 
+  "G.TAM.BXY": {
+    "weight": 1.0
+  }, 
+  "GE.TIRR.BXY": {
+    "weight": 0.99999999999992295
+  }, 
+  "GT.BOSA.BXY": {
+    "weight": 0.99999789083948365
+  }, 
+  "GT.DBIC.BXY": {
+    "weight": 1.0
+  }, 
+  "GT.LBTB.BXY": {
+    "weight": 0.99999789083948365
+  }, 
+  "IC.BJT.BXY": {
+    "weight": 1.0
+  }, 
+  "IC.HIA.BXY": {
+    "weight": 1.0
+  }, 
+  "II.ARU.BXY": {
+    "weight": 0.99999999999999978
+  }, 
+  "II.BFO.BXY": {
+    "weight": 0.97049675355060161
+  }, 
+  "II.MSVF.BXY": {
+    "weight": 1.0
+  }, 
+  "II.SACV.BXY": {
+    "weight": 1.0
+  }, 
+  "II.SHEL.BXY": {
+    "weight": 1.0
+  }, 
+  "II.WRAB.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.CHTO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.CTAO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.GNI.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.KEV.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.LSZ.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.PAB.BXY": {
+    "weight": 0.99998258941599882
+  }, 
+  "IU.PET.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.PMG.BXY": {
+    "weight": 0.99999999999999978
+  }, 
+  "IU.RAR.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.RCBR.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.RSSD.BXY": {
+    "weight": 0.97662009028750574
+  }, 
+  "IU.SLBS.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.SNZO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.WCI.BXY": {
+    "weight": 0.99999999999997202
+  }, 
+  "IW.FXWY.BXY": {
+    "weight": 0.52658854471412619
+  }, 
+  "IW.PHWY.BXY": {
+    "weight": 0.25564865395313285
+  }, 
+  "IW.REDW.BXY": {
+    "weight": 0.5265023944577204
+  }, 
+  "IW.SMCO.BXY": {
+    "weight": 0.87166294046459325
+  }, 
+  "KZ.AKTO.BXY": {
+    "weight": 0.99999999999999978
+  }, 
+  "MN.BNI.BXY": {
+    "weight": 0.99999835397178516
+  }, 
+  "MN.RTC.BXY": {
+    "weight": 0.99999999997321942
+  }, 
+  "MN.TIR.BXY": {
+    "weight": 0.99999770469435645
+  }, 
+  "MN.VTS.BXY": {
+    "weight": 0.9999977046942794
+  }, 
+  "OE.DAVA.BXY": {
+    "weight": 0.97049785449090831
+  }, 
+  "PM.PESTR.BXY": {
+    "weight": 0.99998258938921913
+  }, 
+  "TA.332A.BXY": {
+    "weight": 0.53184988009277401
+  }, 
+  "TA.432A.BXY": {
+    "weight": 0.48406716511755099
+  }, 
+  "TA.533A.BXY": {
+    "weight": 0.71249421893676779
+  }, 
+  "TA.E19A.BXY": {
+    "weight": 0.99987579401375903
+  }, 
+  "TA.H22A.BXY": {
+    "weight": 0.94492118175224982
+  }, 
+  "TA.J20A.BXY": {
+    "weight": 0.936872967401159
+  }, 
+  "TA.K22A.BXY": {
+    "weight": 0.48685979560919612
+  }, 
+  "TA.K23A.BXY": {
+    "weight": 0.3633341252724494
+  }, 
+  "TA.L23A.BXY": {
+    "weight": 0.27765257935822396
+  }, 
+  "TA.L24A.BXY": {
+    "weight": 0.2920392864199417
+  }, 
+  "TA.M02C.BXY": {
+    "weight": 0.58997967809348872
+  }, 
+  "TA.M24A.BXY": {
+    "weight": 0.26287814747542515
+  }, 
+  "TA.N22A.BXY": {
+    "weight": 0.56804209721476484
+  }, 
+  "TA.N24A.BXY": {
+    "weight": 0.24992786047390864
+  }, 
+  "TA.O24A.BXY": {
+    "weight": 0.24959125942767638
+  }, 
+  "TA.O25A.BXY": {
+    "weight": 0.22449930555056535
+  }, 
+  "TA.O26A.BXY": {
+    "weight": 0.32535070071448891
+  }, 
+  "TA.O28A.BXY": {
+    "weight": 0.4371958452881099
+  }, 
+  "TA.P24A.BXY": {
+    "weight": 0.21351546375065911
+  }, 
+  "TA.P25A.BXY": {
+    "weight": 0.18406083571554979
+  }, 
+  "TA.P26A.BXY": {
+    "weight": 0.22973606051560619
+  }, 
+  "TA.P28A.BXY": {
+    "weight": 0.33360610639525051
+  }, 
+  "TA.Q24A.BXY": {
+    "weight": 0.23058317285347391
+  }, 
+  "TA.Q25A.BXY": {
+    "weight": 0.17345322075845934
+  }, 
+  "TA.Q26A.BXY": {
+    "weight": 0.18890501187602271
+  }, 
+  "TA.Q28A.BXY": {
+    "weight": 0.3092672505821249
+  }, 
+  "TA.R11A.BXY": {
+    "weight": 0.99280952426157199
+  }, 
+  "TA.R24A.BXY": {
+    "weight": 0.20141711259421111
+  }, 
+  "TA.R25A.BXY": {
+    "weight": 0.16474573244718699
+  }, 
+  "TA.R26A.BXY": {
+    "weight": 0.17230833221573741
+  }, 
+  "TA.R27A.BXY": {
+    "weight": 0.21113625654305349
+  }, 
+  "TA.R29A.BXY": {
+    "weight": 0.32423538996662116
+  }, 
+  "TA.R30A.BXY": {
+    "weight": 0.46945820695475748
+  }, 
+  "TA.S24A.BXY": {
+    "weight": 0.22318720117166105
+  }, 
+  "TA.S25A.BXY": {
+    "weight": 0.16937205478970871
+  }, 
+  "TA.S26A.BXY": {
+    "weight": 0.16104789252652371
+  }, 
+  "TA.S27A.BXY": {
+    "weight": 0.18013398931615424
+  }, 
+  "TA.S28A.BXY": {
+    "weight": 0.25891974153552982
+  }, 
+  "TA.S29A.BXY": {
+    "weight": 0.30319179011221026
+  }, 
+  "TA.T25A.BXY": {
+    "weight": 0.19109758820042774
+  }, 
+  "TA.T26A.BXY": {
+    "weight": 0.1661254334752944
+  }, 
+  "TA.T27A.BXY": {
+    "weight": 0.18580257728052249
+  }, 
+  "TA.T31A.BXY": {
+    "weight": 0.57897326395076132
+  }, 
+  "TA.U25A.BXY": {
+    "weight": 0.26817334875154647
+  }, 
+  "TA.U26A.BXY": {
+    "weight": 0.2041766304766521
+  }, 
+  "TA.U27A.BXY": {
+    "weight": 0.19096554800202825
+  }, 
+  "TA.U28A.BXY": {
+    "weight": 0.22048599323817772
+  }, 
+  "TA.U29A.BXY": {
+    "weight": 0.32070728617978161
+  }, 
+  "TA.U30A.BXY": {
+    "weight": 0.3935301181925156
+  }, 
+  "TA.V26A.BXY": {
+    "weight": 0.29472089271905183
+  }, 
+  "TA.V27A.BXY": {
+    "weight": 0.25334141474825911
+  }, 
+  "TA.V28A.BXY": {
+    "weight": 0.28447063902322683
+  }, 
+  "TA.V32A.BXY": {
+    "weight": 0.86772512950052938
+  }, 
+  "TA.X30A.BXY": {
+    "weight": 0.5570689720518669
+  }, 
+  "TA.Y12C.BXY": {
+    "weight": 0.98262158237480901
+  }, 
+  "TA.Y30A.BXY": {
+    "weight": 0.5772321756936396
+  }, 
+  "TW.NACB.BXY": {
+    "weight": 0.57289669342160099
+  }, 
+  "TW.YHNB.BXY": {
+    "weight": 0.57289669342160099
+  }, 
+  "US.DUG.BXY": {
+    "weight": 0.99998354642758147
+  }, 
+  "US.GOGA.BXY": {
+    "weight": 0.99999999999997202
+  }, 
+  "US.HAWA.BXY": {
+    "weight": 0.99990961671641521
+  }, 
+  "US.JFWS.BXY": {
+    "weight": 1.0
+  }, 
+  "US.LBNH.BXY": {
+    "weight": 1.0
+  }, 
+  "US.NEW.BXY": {
+    "weight": 0.99990961672125978
+  }, 
+  "US.SDCO.BXY": {
+    "weight": 0.26814305438936303
+  }, 
+  "ZL.CASP.BXY": {
+    "weight": 0.368401395086845
+  }, 
+  "ZL.DOCA.BXY": {
+    "weight": 0.35626653220398635
+  }, 
+  "ZL.SASO.BXY": {
+    "weight": 0.31537576201596407
+  }, 
+  "ZL.SOMB.BXY": {
+    "weight": 0.37660422354338097
+  }
+}

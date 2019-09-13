@@ -1,0 +1,104 @@
+{
+  "AU.TOO.BXY": {
+    "weight": 1.0
+  }, 
+  "BK.PKD.BXY": {
+    "weight": 0.12048793483454322
+  }, 
+  "CI.EDW2.BXY": {
+    "weight": 0.12126385621843912
+  }, 
+  "CI.VCS.BXY": {
+    "weight": 0.1255377358249148
+  }, 
+  "CU.BCIP.BXY": {
+    "weight": 0.9999999999999984
+  }, 
+  "G.SPB.BXY": {
+    "weight": 0.9999999991788224
+  }, 
+  "GT.LPAZ.BXY": {
+    "weight": 0.9999999991745938
+  }, 
+  "GT.PLCA.BXY": {
+    "weight": 0.9999999999957725
+  }, 
+  "IC.HIA.BXY": {
+    "weight": 0.9942362262435023
+  }, 
+  "IC.MDJ.BXY": {
+    "weight": 0.9919051517900417
+  }, 
+  "IC.QIZ.BXY": {
+    "weight": 0.9942795885219284
+  }, 
+  "IU.ANTO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.CHTO.BXY": {
+    "weight": 0.9942847114413214
+  }, 
+  "IU.MAJO.BXY": {
+    "weight": 0.9877548269915912
+  }, 
+  "IU.SFJD.BXY": {
+    "weight": 1.0
+  }, 
+  "KZ.KKAR.BXY": {
+    "weight": 1.0
+  }, 
+  "MY.SBM.BXY": {
+    "weight": 0.9999948093857405
+  }, 
+  "NR.NE80.BXY": {
+    "weight": 0.3249817102346896
+  }, 
+  "PS.OGS.BXY": {
+    "weight": 0.9900664098060191
+  }, 
+  "PS.PATS.BXY": {
+    "weight": 0.9999999999997489
+  }, 
+  "TA.218A.BXY": {
+    "weight": 0.3624820226281708
+  }, 
+  "TA.HAST.BXY": {
+    "weight": 0.1346337340272294
+  }, 
+  "TA.M14A.BXY": {
+    "weight": 0.22770750081013078
+  }, 
+  "TA.P12A.BXY": {
+    "weight": 0.15836123748869105
+  }, 
+  "TA.P13A.BXY": {
+    "weight": 0.1669170876902656
+  }, 
+  "TA.R10A.BXY": {
+    "weight": 0.13506393935596184
+  }, 
+  "TA.U04C.BXY": {
+    "weight": 0.123461742394053
+  }, 
+  "TA.U05C.BXY": {
+    "weight": 0.11764025953838175
+  }, 
+  "TA.V03C.BXY": {
+    "weight": 0.12868668261974117
+  }, 
+  "TA.V04C.BXY": {
+    "weight": 0.12455031743289387
+  }, 
+  "TA.X13A.BXY": {
+    "weight": 0.17088347897358372
+  }, 
+  "TA.Y12C.BXY": {
+    "weight": 0.17115241700126516
+  }, 
+  "US.DUG.BXY": {
+    "weight": 0.20248168567009733
+  }, 
+  "US.JFWS.BXY": {
+    "weight": 0.9999999994917979
+  }
+}

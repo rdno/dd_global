@@ -1,0 +1,69 @@
+name: simple
+init_model: simple/DATA_init_plain
+target_model: simple/DATA_target_plain
+sources_file: simple/pair_test_events
+station_folder: simple/stations
+source_folder: simple/sources
+specfem_folder: ~/src/specfem2d
+
+simulation:
+  kernels:
+    - "beta"
+  comps:
+    - "BXY"
+  dt: 0.06
+  nstep: 4800
+  seismogram_format: "su"
+
+adjoint:
+  freq_min: 0.0333
+  freq_max: 1.00
+  taper_type: "cos_p10"
+  taper_percentage: 1.0
+
+window:
+  min_vel: 3000
+  max_vel: 4000
+  periodic_horiz_dist: 0
+
+dd:
+  closeness: True
+  close_pairs: 150000
+  azimuth: False
+  azimuth_interval: 10
+  similarity: False
+  similarity_threshold: 0.9
+  pair_wise_weighting: true
+
+inversion:
+  start_it: 1
+  stop_it: 1
+  optimization: "L-BFGS"
+
+linesearch:
+  first: 0.025
+  step: 0.0125
+  min_step: 0.0001
+  min_improvement: 0.01
+  ntry: 1
+
+postprocessing:
+  precondition: false
+  preconditioners: []
+  smooth: true
+  sigmah: 2500
+  sigmav: 2500
+
+
+options:
+  n_parallel_src_runs: 1
+  misfit_nproc: 4
+  calc_events_individually: false
+
+
+prepare_model:
+  nproc: 4
+  init_command: "python ./prepare_data.py simple/init.png 3500 500"
+  target_command: "python ./prepare_data.py simple/init.png 3600 500"
+  mpi: true
+

@@ -1,0 +1,73 @@
+name: global
+init_model: global/DATA_init
+target_model: global/DATA_target
+sources_file: global/events_21
+station_folder: global/stations
+source_folder: global/sources
+specfem_folder: ~/src/specfem2d
+
+simulation:
+  kernels:
+    - "beta"
+  comps:
+    - "BXY"
+  dt: 0.000026
+  nstep: 4800
+  seismogram_format: "su"
+
+adjoint:
+  freq_min: 0.0333
+  freq_max: 0.10
+  taper_type: "cos_p10"
+  taper_percentage: 1.0
+  receiver_weights: global/rec_weights
+
+window:
+  min_vel: 2500
+  max_vel: 5000
+  periodic_horiz_dist: 360
+  use_pyflex: False
+  pyflex_conf_file: global_pyflex_conf.yml
+
+dd:
+  closeness: True
+  close_pairs: 5
+  azimuth: False
+  azimuth_interval: 5
+  similarity: True
+  similarity_threshold: 0.996
+  pair_wise_weighting: True
+  use_pair_file: global/pairs.json
+
+inversion:
+  start_it: 1
+  stop_it: 20
+  optimization: "L-BFGS"
+  loss_of_conjugacy: 0.2
+
+
+linesearch:
+  first: 0.025
+  step: 0.025
+  min_step: 0.0001
+  min_improvement: 0.001
+  ntry: 3
+
+postprocessing:
+  precondition: true
+  preconditioners:
+    - "Hessian2"
+  smooth: true
+  sigmah: 5
+  sigmav: 5
+
+
+options:
+  n_parallel_src_runs: 21
+  misfit_nproc: 21
+  calc_events_individually: false
+
+prepare_model:
+  nproc: 1
+  target_command: "python ./checkerboard_model.py"
+  mpi: true

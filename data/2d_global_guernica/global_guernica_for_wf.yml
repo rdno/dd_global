@@ -1,0 +1,74 @@
+name: global
+init_model: global_guernica_cc_and_dd_with_ccrec_sigma1/models/DATA_cc_and_dd_5
+target_model: global/DATA_target_guernica
+sources_file: global/events_21
+station_folder: global/stations
+source_folder: global/sources
+specfem_folder: ~/src/specfem2d
+
+simulation:
+  kernels:
+    - "beta"
+  comps:
+    - "BXY"
+  dt: 0.000026
+  nstep: 4800
+  seismogram_format: "su"
+
+adjoint:
+  freq_min: 0.0333
+  freq_max: 0.10
+  taper_type: "cos_p10"
+  taper_percentage: 1.0
+  # receiver_weights: global/rec_weights
+  # use_receiver_weights_for_dd: false
+
+window:
+  min_vel: 1500
+  max_vel: 6500
+  periodic_horiz_dist: 360
+
+dd:
+  closeness: True
+  close_pairs: 5
+  azimuth: False
+  azimuth_interval: 5
+  similarity: True
+  similarity_threshold: 0.9
+  pair_wise_weighting: true
+  use_pair_file: global/pairs_guernica.json
+
+inversion:
+  start_it: 1
+  stop_it: 20
+  optimization: "L-BFGS"
+  loss_of_conjugacy: 0.2
+
+
+linesearch:
+  first: 0.025
+  step: 0.025
+  min_step: 0.0001
+  min_improvement: 0.01
+  ntry: 3
+
+postprocessing:
+  precondition: true
+  preconditioners:
+    - "Hessian2"
+  smooth: true
+  sigmah: 1
+  sigmav: 1
+
+
+options:
+  n_parallel_src_runs: 7
+  misfit_nproc: 21
+  calc_events_individually: true
+
+prepare_model:
+  nproc: 4
+  mpi: true
+  target_command: "python ./prepare_data.py ./global/guernica_wide.jpg"
+  init_command: "python ./prepare_data.py ./global/init_global.png"
+

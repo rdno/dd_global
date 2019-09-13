@@ -1,0 +1,119 @@
+{
+  "AU.CTA.BXY": {
+    "weight": 0.4987261424761214
+  }, 
+  "AU.LHI.BXY": {
+    "weight": 0.9999589456900139
+  }, 
+  "AU.MEEK.BXY": {
+    "weight": 0.8160214463478885
+  }, 
+  "AU.MOO.BXY": {
+    "weight": 0.5070190766155902
+  }, 
+  "AU.MORW.BXY": {
+    "weight": 0.8160214463478885
+  }, 
+  "AU.MTN.BXY": {
+    "weight": 0.9999998339950209
+  }, 
+  "AU.NFK.BXY": {
+    "weight": 0.9999589456887321
+  }, 
+  "AU.QIS.BXY": {
+    "weight": 0.9899166391124883
+  }, 
+  "CU.ANWB.BXY": {
+    "weight": 0.4558348350929656
+  }, 
+  "CU.BBGH.BXY": {
+    "weight": 0.46713015547216336
+  }, 
+  "CU.GRGR.BXY": {
+    "weight": 0.4986133142222675
+  }, 
+  "CU.SDDR.BXY": {
+    "weight": 0.9996171888243787
+  }, 
+  "G.FDF.BXY": {
+    "weight": 0.3930086945495907
+  }, 
+  "G.FOMA.BXY": {
+    "weight": 1.0
+  }, 
+  "GE.DAG.BXY": {
+    "weight": 1.0
+  }, 
+  "GT.DBIC.BXY": {
+    "weight": 1.0
+  }, 
+  "GT.VNDA.BXY": {
+    "weight": 1.0
+  }, 
+  "IC.HIA.BXY": {
+    "weight": 1.0
+  }, 
+  "II.EFI.BXY": {
+    "weight": 0.9999999999572324
+  }, 
+  "II.KIV.BXY": {
+    "weight": 0.9025242804733715
+  }, 
+  "II.MSVF.BXY": {
+    "weight": 0.9999999999986651
+  }, 
+  "II.TAU.BXY": {
+    "weight": 0.5070190766155956
+  }, 
+  "IU.ANMO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.ANTO.BXY": {
+    "weight": 0.9999985551497
+  }, 
+  "IU.CTAO.BXY": {
+    "weight": 0.4987350686067151
+  }, 
+  "IU.GNI.BXY": {
+    "weight": 0.9025252329205777
+  }, 
+  "IU.KIEV.BXY": {
+    "weight": 0.9999998086881581
+  }, 
+  "IU.PAB.BXY": {
+    "weight": 0.6250868915576338
+  }, 
+  "IU.PTGA.BXY": {
+    "weight": 0.999999997852606
+  }, 
+  "IU.RCBR.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.TRQA.BXY": {
+    "weight": 0.9999999999572324
+  }, 
+  "KN.ULHL.BXY": {
+    "weight": 0.999999982968374
+  }, 
+  "KZ.BVAR.BXY": {
+    "weight": 0.999999982968374
+  }, 
+  "LX.MESJ.BXY": {
+    "weight": 0.2532452654422865
+  }, 
+  "MN.RTC.BXY": {
+    "weight": 0.6142374584459909
+  }, 
+  "NA.SABA.BXY": {
+    "weight": 0.49106059301164207
+  }, 
+  "PM.PESTR.BXY": {
+    "weight": 0.2836795610675689
+  }, 
+  "PM.PFVI.BXY": {
+    "weight": 0.27917145886093003
+  }, 
+  "PM.PVAQ.BXY": {
+    "weight": 0.25264963783370237
+  }
+}

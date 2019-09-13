@@ -1,0 +1,31 @@
+config_file: global.yml
+
+
+runs:
+ - name: global_cc
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": false
+ - name: global_cc_with_rec
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": false
+ - name: global_cc+dd
+   misfit_type: cc+dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+ - name: global_cc_and_dd
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+ - name: global_cc_rec_and_dd
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false

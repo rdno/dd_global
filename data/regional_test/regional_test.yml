@@ -1,0 +1,80 @@
+name: guernica
+init_model: new_checkerboard/DATA_init
+target_model: new_checkerboard/DATA_target_new
+sources_file: new_checkerboard/regional_events
+station_folder: new_checkerboard/stations
+source_folder: new_checkerboard/sources
+specfem_folder: ~/src/specfem2d
+
+simulation:
+  kernels:
+    - "beta"
+  comps:
+    - "BXY"
+  dt: 0.06
+  nstep: 4800
+  seismogram_format: "su"
+
+adjoint:
+  freq_min: 0.0333
+  freq_max: 1.00
+  taper_type: "cos_p10"
+  taper_percentage: 1.0
+#  receiver_weights: new_checkerboard/rec_weights
+
+window:
+  min_vel: 1500
+  max_vel: 4000
+  periodic_horiz_dist: 0
+
+dd:
+  closeness: False
+  close_pairs: 100000
+  azimuth: False
+  azimuth_interval: 2
+  similarity: False
+  similarity_threshold: 0.80
+  pair_wise_weighting: True
+  # use_pair_file: new_checkerboard/guernica_pairs.json
+
+inversion:
+  start_it: 1
+  stop_it: 10
+  optimization: "SD"
+
+linesearch:
+  first: 0.05
+  step: 0.025
+  min_step: 0.001
+  min_improvement: 0.01
+  ntry: 3
+
+postprocessing:
+  precondition: true
+  preconditioners:
+    - "Hessian2"
+  smooth: true
+  sigmah: 5000
+  sigmav: 5000
+  mask_sources: false
+  mask_stations: false
+  mask_radius: 10000
+  smooth_around_sources: false
+  smooth_around_stations: false
+
+
+options:
+  n_parallel_src_runs: 8
+  misfit_nproc: 20
+  calc_events_individually: false
+
+
+prepare_model:
+  nproc: 4
+  # target_command: "python ./checkerboard_model.py"
+  target_command: "python ./stars/prepare_data.py ./stars/guernica.png"
+  mpi: true
+
+keep_data:
+  traces: true
+  adjoint_sources: true

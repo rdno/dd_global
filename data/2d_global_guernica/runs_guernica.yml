@@ -1,0 +1,111 @@
+config_file: global_guernica.yml
+
+
+runs:
+ - name: global_guernica_cc
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": false
+ - name: global_guernica_cc_with_rec
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": false
+ - name: global_guernica_cc+dd
+   misfit_type: cc+dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+ - name: global_guernica_cc_and_dd
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+ - name: global_guernica_cc_and_dd_with_ccrec
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+ - name: global_guernica_cc_sigma_3
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": false
+     "postprocessing.sigmah": 3
+     "postprocessing.sigmav": 3
+     "init_model": global_guernica_cc/models/DATA_cc_5
+ - name: global_guernica_cc_with_rec_sigma3
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": false
+     "postprocessing.sigmah": 3
+     "postprocessing.sigmav": 3
+     "init_model": global_guernica_cc_with_rec/models/DATA_cc_5
+ - name: global_guernica_cc+dd_sigma3
+   misfit_type: cc+dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+     "postprocessing.sigmah": 3
+     "postprocessing.sigmav": 3
+     "init_model": global_guernica_cc+dd/models/DATA_cc+dd_5
+ - name: global_guernica_cc_and_dd_sigma3
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+     "postprocessing.sigmah": 3
+     "postprocessing.sigmav": 3
+     "init_model": global_guernica_cc_and_dd/models/DATA_cc_and_dd_5
+ - name: global_guernica_cc_and_dd_with_ccrec_sigma3
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+     "init_model": global_guernica_cc_and_dd_with_ccrec/models/DATA_cc_and_dd_5
+ - name: global_guernica_cc_sigma_1
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": false
+     "postprocessing.sigmah": 1
+     "postprocessing.sigmav": 1
+     "init_model": global_guernica_cc_sigma_3/models/DATA_cc_5
+ - name: global_guernica_cc_with_rec_sigma1
+   misfit_type: cc
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": false
+     "postprocessing.sigmah": 1
+     "postprocessing.sigmav": 1
+     "init_model": global_guernica_cc_with_rec_sigma3/models/DATA_cc_5
+ - name: global_guernica_cc+dd_sigma1
+   misfit_type: cc+dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+     "postprocessing.sigmah": 1
+     "postprocessing.sigmav": 1
+     "init_model": global_guernica_cc+dd_sigma3/models/DATA_cc+dd_5
+ - name: global_guernica_cc_and_dd_sigma1
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": null
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+     "postprocessing.sigmah": 1
+     "postprocessing.sigmav": 1
+     "init_model": global_guernica_cc_and_dd_sigma3/models/DATA_cc_and_dd_5
+ - name: global_guernica_cc_and_dd_with_ccrec_sigma1
+   misfit_type: cc_and_dd
+   vars:
+     "adjoint.receiver_weights": global/rec_weights
+     "options.calc_events_individually": true
+     "adjoint.use_receiver_weights_for_dd": false
+     "init_model": global_guernica_cc_and_dd_with_ccrec_sigma3/models/DATA_cc_and_dd_5

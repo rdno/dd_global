@@ -1,0 +1,413 @@
+{
+  "AK.CNP.BXY": {
+    "weight": 0.7246817640715125
+  }, 
+  "AT.CRAG.BXY": {
+    "weight": 0.6851290390448684
+  }, 
+  "AT.PMR.BXY": {
+    "weight": 0.7246817640378214
+  }, 
+  "AT.SIT.BXY": {
+    "weight": 0.6938443967253247
+  }, 
+  "AU.ARMA.BXY": {
+    "weight": 0.8975812388677745
+  }, 
+  "AU.BBOO.BXY": {
+    "weight": 0.9999600711877954
+  }, 
+  "AU.CMSA.BXY": {
+    "weight": 0.8827392746907793
+  }, 
+  "AU.CNB.BXY": {
+    "weight": 0.8371058428602242
+  }, 
+  "AU.COEN.BXY": {
+    "weight": 0.9780141511321241
+  }, 
+  "AU.EIDS.BXY": {
+    "weight": 0.9384875322369547
+  }, 
+  "AU.MANU.BXY": {
+    "weight": 0.9534352684912949
+  }, 
+  "AU.MCQ.BXY": {
+    "weight": 0.9999999999999798
+  }, 
+  "AU.MOO.BXY": {
+    "weight": 0.9486804065023371
+  }, 
+  "AU.NIUE.BXY": {
+    "weight": 0.9999935352333453
+  }, 
+  "AU.QLP.BXY": {
+    "weight": 0.9410376784898216
+  }, 
+  "AU.RABL.BXY": {
+    "weight": 0.9528854186575972
+  }, 
+  "AU.TOO.BXY": {
+    "weight": 0.8497755758403738
+  }, 
+  "AZ.MONP2.BXY": {
+    "weight": 0.21506749584678875
+  }, 
+  "BK.HUMO.BXY": {
+    "weight": 0.39584602158501603
+  }, 
+  "BK.WDC.BXY": {
+    "weight": 0.38903646356210053
+  }, 
+  "CI.ADO.BXY": {
+    "weight": 0.16661958124828116
+  }, 
+  "CI.FUR.BXY": {
+    "weight": 0.18028237045797232
+  }, 
+  "CI.GSC.BXY": {
+    "weight": 0.15798357691037837
+  }, 
+  "CI.ISA.BXY": {
+    "weight": 0.20971554211104212
+  }, 
+  "CI.PLM.BXY": {
+    "weight": 0.19064195215611884
+  }, 
+  "CI.SHO.BXY": {
+    "weight": 0.16874409557607867
+  }, 
+  "CN.BBB.BXY": {
+    "weight": 0.9815607163818659
+  }, 
+  "CN.DRLN.BXY": {
+    "weight": 0.9999999999943816
+  }, 
+  "CU.BBGH.BXY": {
+    "weight": 1.0
+  }, 
+  "G.DZM.BXY": {
+    "weight": 0.999999960793442
+  }, 
+  "G.TAM.BXY": {
+    "weight": 1.0
+  }, 
+  "GE.TIRR.BXY": {
+    "weight": 0.9661756990099234
+  }, 
+  "GT.BOSA.BXY": {
+    "weight": 0.8103268531940714
+  }, 
+  "GT.DBIC.BXY": {
+    "weight": 1.0
+  }, 
+  "GT.LBTB.BXY": {
+    "weight": 0.8103185736121319
+  }, 
+  "IC.BJT.BXY": {
+    "weight": 0.9999820901107492
+  }, 
+  "IC.HIA.BXY": {
+    "weight": 0.9999820901109888
+  }, 
+  "II.ARU.BXY": {
+    "weight": 0.9824846168103675
+  }, 
+  "II.BFO.BXY": {
+    "weight": 0.5257366811306926
+  }, 
+  "II.MSVF.BXY": {
+    "weight": 0.9999998731842626
+  }, 
+  "II.SACV.BXY": {
+    "weight": 1.0
+  }, 
+  "II.SHEL.BXY": {
+    "weight": 1.0
+  }, 
+  "II.WRAB.BXY": {
+    "weight": 0.9999963340959529
+  }, 
+  "IU.CHTO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.CTAO.BXY": {
+    "weight": 0.9856146402079031
+  }, 
+  "IU.GNI.BXY": {
+    "weight": 0.9999999999999583
+  }, 
+  "IU.KEV.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.LSZ.BXY": {
+    "weight": 0.9999873888060834
+  }, 
+  "IU.PAB.BXY": {
+    "weight": 0.762171708703791
+  }, 
+  "IU.PET.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.PMG.BXY": {
+    "weight": 0.977936087534888
+  }, 
+  "IU.RAR.BXY": {
+    "weight": 0.9999936228426483
+  }, 
+  "IU.RCBR.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.RSSD.BXY": {
+    "weight": 0.15959031852953628
+  }, 
+  "IU.SLBS.BXY": {
+    "weight": 0.9999977444815323
+  }, 
+  "IU.SNZO.BXY": {
+    "weight": 1.0
+  }, 
+  "IU.WCI.BXY": {
+    "weight": 0.9555104697521283
+  }, 
+  "IW.FXWY.BXY": {
+    "weight": 0.31632900577452805
+  }, 
+  "IW.PHWY.BXY": {
+    "weight": 0.05967088619294829
+  }, 
+  "IW.REDW.BXY": {
+    "weight": 0.3009629374782673
+  }, 
+  "IW.SMCO.BXY": {
+    "weight": 0.07858949606412265
+  }, 
+  "KZ.AKTO.BXY": {
+    "weight": 0.9824846168103438
+  }, 
+  "MN.BNI.BXY": {
+    "weight": 0.7104733938568494
+  }, 
+  "MN.RTC.BXY": {
+    "weight": 0.9233748140135634
+  }, 
+  "MN.TIR.BXY": {
+    "weight": 0.8088118029706924
+  }, 
+  "MN.VTS.BXY": {
+    "weight": 0.7866662904434943
+  }, 
+  "OE.DAVA.BXY": {
+    "weight": 0.537045323124022
+  }, 
+  "PM.PESTR.BXY": {
+    "weight": 0.7337717040571637
+  }, 
+  "TA.332A.BXY": {
+    "weight": 0.2516100164012063
+  }, 
+  "TA.432A.BXY": {
+    "weight": 0.27363516944246513
+  }, 
+  "TA.533A.BXY": {
+    "weight": 0.33917622085231164
+  }, 
+  "TA.E19A.BXY": {
+    "weight": 0.4037278015657738
+  }, 
+  "TA.H22A.BXY": {
+    "weight": 0.16169176820844877
+  }, 
+  "TA.J20A.BXY": {
+    "weight": 0.1545656700380347
+  }, 
+  "TA.K22A.BXY": {
+    "weight": 0.09309541282709076
+  }, 
+  "TA.K23A.BXY": {
+    "weight": 0.08501625920509538
+  }, 
+  "TA.L23A.BXY": {
+    "weight": 0.07284596320112258
+  }, 
+  "TA.L24A.BXY": {
+    "weight": 0.06828361818828135
+  }, 
+  "TA.M02C.BXY": {
+    "weight": 0.358224957476508
+  }, 
+  "TA.M24A.BXY": {
+    "weight": 0.05890785772704099
+  }, 
+  "TA.N22A.BXY": {
+    "weight": 0.0684140922420579
+  }, 
+  "TA.N24A.BXY": {
+    "weight": 0.05149430957727833
+  }, 
+  "TA.O24A.BXY": {
+    "weight": 0.04693058567683692
+  }, 
+  "TA.O25A.BXY": {
+    "weight": 0.04386317254507951
+  }, 
+  "TA.O26A.BXY": {
+    "weight": 0.046867150399952894
+  }, 
+  "TA.O28A.BXY": {
+    "weight": 0.06118843078888828
+  }, 
+  "TA.P24A.BXY": {
+    "weight": 0.04298638308077844
+  }, 
+  "TA.P25A.BXY": {
+    "weight": 0.04022465762018922
+  }, 
+  "TA.P26A.BXY": {
+    "weight": 0.04100300722198885
+  }, 
+  "TA.P28A.BXY": {
+    "weight": 0.05342825264511412
+  }, 
+  "TA.Q24A.BXY": {
+    "weight": 0.04346177827496841
+  }, 
+  "TA.Q25A.BXY": {
+    "weight": 0.03838277233444771
+  }, 
+  "TA.Q26A.BXY": {
+    "weight": 0.037686833282219
+  }, 
+  "TA.Q28A.BXY": {
+    "weight": 0.04756559866862296
+  }, 
+  "TA.R11A.BXY": {
+    "weight": 0.3181752481188023
+  }, 
+  "TA.R24A.BXY": {
+    "weight": 0.043502155313802485
+  }, 
+  "TA.R25A.BXY": {
+    "weight": 0.038154647340128384
+  }, 
+  "TA.R26A.BXY": {
+    "weight": 0.0365874481275567
+  }, 
+  "TA.R27A.BXY": {
+    "weight": 0.03777385464804261
+  }, 
+  "TA.R29A.BXY": {
+    "weight": 0.05233791049222257
+  }, 
+  "TA.R30A.BXY": {
+    "weight": 0.06890668014268224
+  }, 
+  "TA.S24A.BXY": {
+    "weight": 0.04693629375430405
+  }, 
+  "TA.S25A.BXY": {
+    "weight": 0.04008716109475757
+  }, 
+  "TA.S26A.BXY": {
+    "weight": 0.037239005990272696
+  }, 
+  "TA.S27A.BXY": {
+    "weight": 0.03757392461700684
+  }, 
+  "TA.S28A.BXY": {
+    "weight": 0.04242585336059694
+  }, 
+  "TA.S29A.BXY": {
+    "weight": 0.05044967601450871
+  }, 
+  "TA.T25A.BXY": {
+    "weight": 0.04264145768883129
+  }, 
+  "TA.T26A.BXY": {
+    "weight": 0.03904202363629438
+  }, 
+  "TA.T27A.BXY": {
+    "weight": 0.03988010489777253
+  }, 
+  "TA.T31A.BXY": {
+    "weight": 0.08327319970808528
+  }, 
+  "TA.U25A.BXY": {
+    "weight": 0.04961627306239205
+  }, 
+  "TA.U26A.BXY": {
+    "weight": 0.04540499107121828
+  }, 
+  "TA.U27A.BXY": {
+    "weight": 0.043928624277039086
+  }, 
+  "TA.U28A.BXY": {
+    "weight": 0.046082769228348336
+  }, 
+  "TA.U29A.BXY": {
+    "weight": 0.05300812125811518
+  }, 
+  "TA.U30A.BXY": {
+    "weight": 0.061359769613963853
+  }, 
+  "TA.V26A.BXY": {
+    "weight": 0.0537609078261231
+  }, 
+  "TA.V27A.BXY": {
+    "weight": 0.051700860197606405
+  }, 
+  "TA.V28A.BXY": {
+    "weight": 0.05320592223081636
+  }, 
+  "TA.V32A.BXY": {
+    "weight": 0.1253220832182093
+  }, 
+  "TA.X30A.BXY": {
+    "weight": 0.09576308522757208
+  }, 
+  "TA.Y12C.BXY": {
+    "weight": 0.2618129895052659
+  }, 
+  "TA.Y30A.BXY": {
+    "weight": 0.11664089944853921
+  }, 
+  "TW.NACB.BXY": {
+    "weight": 0.5081570398323244
+  }, 
+  "TW.YHNB.BXY": {
+    "weight": 0.5081570398322776
+  }, 
+  "US.DUG.BXY": {
+    "weight": 0.5339805037403701
+  }, 
+  "US.GOGA.BXY": {
+    "weight": 0.9697366435300893
+  }, 
+  "US.HAWA.BXY": {
+    "weight": 0.6954268142226574
+  }, 
+  "US.JFWS.BXY": {
+    "weight": 0.9848747498219843
+  }, 
+  "US.LBNH.BXY": {
+    "weight": 0.9999999999915898
+  }, 
+  "US.NEW.BXY": {
+    "weight": 0.7358324635223169
+  }, 
+  "US.SDCO.BXY": {
+    "weight": 0.05017775182718771
+  }, 
+  "ZL.CASP.BXY": {
+    "weight": 0.262254988012457
+  }, 
+  "ZL.DOCA.BXY": {
+    "weight": 0.2614026239846933
+  }, 
+  "ZL.SASO.BXY": {
+    "weight": 0.25698258108083527
+  }, 
+  "ZL.SOMB.BXY": {
+    "weight": 0.2638462690962693
+  }
+}

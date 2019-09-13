@@ -1,0 +1,22 @@
+[submodule "src/sair"]
+	path = src/sair
+	url = https://github.com/rdno/sair
+[submodule "src/pyadjoint"]
+	path = src/pyadjoint
+	url = https://github.com/rdno/pyadjoint/
+	branch = DD
+[submodule "src/pyflex"]
+	path = src/pyflex
+	url = https://github.com/rdno/pyflex
+	branch = surface_arrivals
+[submodule "src/pytomo3d"]
+	path = src/pytomo3d
+	url = https://github.com/rdno/pytomo3d.git
+	branch = dd_work
+[submodule "src/pypaw"]
+	path = src/pypaw
+	url = https://github.com/rdno/pypaw.git
+	branch = dd_work
+[submodule "src/specfem2d"]
+	path = src/specfem2d
+	url = https://github.com/rdno/specfem2d

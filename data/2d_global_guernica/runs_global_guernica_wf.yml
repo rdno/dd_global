@@ -1,0 +1,19 @@
+config_file: global_guernica_for_wf.yml
+
+
+runs:
+ - name: global_guernica_wf
+   misfit_type: waveform
+   vars: {}
+ - name: global_guernica_wf+dd
+   misfit_type: wf+dd
+   vars: {}
+ - name: global_guernica_wf_rec
+   misfit_type: waveform
+   vars:
+     "adjoint.receiver_weights": "global/rec_weights"
+ - name: global_guernica_wf_and_dd_ccrec
+   misfit_type: wf_and_dd
+   vars:
+     "adjoint.receiver_weights": "global/rec_weights"
+     "adjoint.use_receiver_weights_for_dd": false

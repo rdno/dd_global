@@ -1,0 +1,45 @@
+config_file: pair_weight_test.yml
+
+runs:
+  - name: pair_weight_test_cc_front
+    misfit_type: cc
+    vars:
+      sources_file: simple/pair_test_events_front
+  - name: pair_weight_test_dd_not_weighted_front
+    misfit_type: dd
+    vars:
+      sources_file: simple/pair_test_events_front
+      "dd.pair_wise_weighting": false
+  - name: pair_weight_test_dd_weighted_front
+    misfit_type: dd
+    vars:
+      sources_file: simple/pair_test_events_front
+      "dd.pair_wise_weighting": true
+  - name: pair_weight_test_cc_back
+    misfit_type: cc
+    vars:
+      sources_file: simple/pair_test_events_back
+  - name: pair_weight_test_dd_not_weighted_back
+    misfit_type: dd
+    vars:
+      sources_file: simple/pair_test_events_back
+      "dd.pair_wise_weighting": false
+  - name: pair_weight_test_dd_weighted_back
+    misfit_type: dd
+    vars:
+      sources_file: simple/pair_test_events_back
+      "dd.pair_wise_weighting": true
+  - name: pair_weight_test_cc_all
+    misfit_type: cc
+    vars:
+      sources_file: simple/pair_test_events
+  - name: pair_weight_test_dd_not_weighted_all
+    misfit_type: dd
+    vars:
+      sources_file: simple/pair_test_events
+      "dd.pair_wise_weighting": false
+  - name: pair_weight_test_dd_weighted_all
+    misfit_type: dd
+    vars:
+      sources_file: simple/pair_test_events
+      "dd.pair_wise_weighting": true

@@ -1,0 +1,42 @@
+config_file: regional_test.yml
+
+runs:
+  - name: regional_test_cc_rec_delta17
+    misfit_type: cc
+    vars:
+      "adjoint.receiver_weights": new_checkerboard/rec_weights
+  - name: regional_test_cc_rec_delta43
+    misfit_type: cc
+    vars:
+      "adjoint.receiver_weights": new_checkerboard/new_rec_weights_3
+  - name: regional_test_cc
+    misfit_type: cc
+    vars: {}
+  - name: regional_test_dd_pair_all
+    misfit_type: dd
+    vars: {}
+  - name: regional_test_dd_pair_similar95_and_close
+    misfit_type: dd
+    vars:
+      "dd.similarity": true
+      "dd.closeness": true
+      "dd.similarity_threshold": 0.95
+  - name: regional_test_dd_pair_similar_and_close_200km
+    misfit_type: dd
+    vars:
+      "dd.similarity": true
+      "dd.closeness": true
+      "dd.close_pairs": 200000
+  - name: regional_test_dd_pair_similar50_and_close
+    misfit_type: dd
+    vars:
+      "dd.similarity": true
+      "dd.closeness": true
+      "dd.similarity_threshold": 0.50
+  - name: regional_test_dd_pair_similar50_and_close200km
+    misfit_type: dd
+    vars:
+      "dd.similarity": true
+      "dd.closeness": true
+      "dd.similarity_threshold": 0.50
+      "dd.close_pairs": 200000
