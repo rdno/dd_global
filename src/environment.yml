@@ -1,0 +1,17 @@
+name: sair
+channels:
+  - conda-forge
+dependencies:
+  - python==2.7.18
+  - cartopy==0.17.0
+  - obspy==1.0.2
+  - pip==19.2.3
+  - pip:
+      - --editable pyflex
+      - --editable pyadjoint
+      - psutil
+      - pyyaml==3.13
+      - tqdm
+      - namedlist
+      - mpi4py==3.0.3
+      - --editable sair
